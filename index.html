@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo-App</title>
     <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="main-heading">
+    <div class="main-heading h1 container">
       <h1>Todo-App</h1>
     </div>
+
     <div class="user-input-div">
-      <input type="text" id="user-input" placeholder="Enter Your Tasks"/>
-      <button onclick="addvalue()">Add Task</button>
-      <button onclick="Deleteall()">Delete All</button>
+      <input
+        class="inp"
+        type="text"
+        id="user-input"
+        placeholder="Enter Your Tasks"
+      />
+      <button class="add-btn" onclick="addvalue()">Add Task</button>
+      <button class="del-btn" onclick="Deleteall()">Delete All</button>
     </div>
     <div>
       <ul id="task-list"></ul>

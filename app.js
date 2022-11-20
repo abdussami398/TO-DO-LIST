@@ -17,7 +17,7 @@ const addvalue = () => {
   //Edit Button
   let editbtn = document.createElement("button");
   let edittxt = document.createTextNode("EDIT");
-  delbtn.setAttribute("class", "btn");
+  editbtn.setAttribute("class", "btn");
   editbtn.setAttribute("onclick", "edit(this)");
   editbtn.appendChild(edittxt);
 
